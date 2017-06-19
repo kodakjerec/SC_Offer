@@ -1,0 +1,301 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ADFCBF8B-3A82-4F11-869A-719AC3FE0053}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SC_Offer</RootNamespace>
+    <AssemblyName>SC_Offer</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CSS\csshover3.htc" />
+    <Content Include="CSS\fullcalendar.css" />
+    <Content Include="CSS\jquery.datepick.css" />
+    <Content Include="CSS\jquery.timeentry.css" />
+    <Content Include="CSS\loading.gif" />
+    <Content Include="CSS\Style.css" />
+    <Content Include="CSS\validationEngine.jquery.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\Calander.js" />
+    <Content Include="js\cityzip.js" />
+    <Content Include="js\comfirm.js" />
+    <Content Include="js\Control.js" />
+    <Content Include="js\csshover3.htc" />
+    <Content Include="js\fullcalendar.css" />
+    <Content Include="js\fullcalendar.js" />
+    <Content Include="js\jquery-1.4.2.js" />
+    <Content Include="js\jquery.datepick-zh-TW.js" />
+    <Content Include="js\jquery.datepick.css" />
+    <Content Include="js\jquery.datepick.js" />
+    <Content Include="js\jquery.timeentry-zh-CN.js" />
+    <Content Include="js\jquery.timeentry.css" />
+    <Content Include="js\jquery.timeentry.js" />
+    <Content Include="js\jquery.validationEngine-ch.js" />
+    <Content Include="js\jquery.validationEngine-en.js" />
+    <Content Include="js\jquery.validationEngine.js" />
+    <Content Include="js\js.printer.js" />
+    <Content Include="js\npm.js" />
+    <Content Include="js\scw.js" />
+    <Content Include="js\Style.css" />
+    <Content Include="js\validationEngine.jquery.css" />
+    <Content Include="Menu.aspx" />
+    <Content Include="Menu01.aspx" />
+    <Content Include="note.aspx" />
+    <Content Include="SCError.aspx" />
+    <Content Include="SCFieldSet.aspx" />
+    <Content Include="SCItemList.aspx" />
+    <Content Include="SCMain.aspx" />
+    <Content Include="SCObject.aspx" />
+    <Content Include="SCObjGoo.aspx" />
+    <Content Include="SCQueryQuote.aspx" />
+    <Content Include="SCQuote.aspx" />
+    <Content Include="SCQuoteItem.aspx" />
+    <Content Include="SCSupQuery.aspx" />
+    <Content Include="SCSupSet.aspx" />
+    <Content Include="SCTypeFee.aspx" />
+    <Content Include="SCTypeFeeItem.aspx" />
+    <Content Include="SCTypeQuery.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="XMSSCData.aspx" />
+    <Content Include="XMSSCData2.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.aspx.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu.aspx.designer.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Menu01.aspx.cs">
+      <DependentUpon>Menu01.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu01.aspx.designer.cs">
+      <DependentUpon>Menu01.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="note.aspx.cs">
+      <DependentUpon>note.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="note.aspx.designer.cs">
+      <DependentUpon>note.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SCError.aspx.cs">
+      <DependentUpon>SCError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SCError.aspx.designer.cs">
+      <DependentUpon>SCError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SCFieldSet.aspx.cs">
+      <DependentUpon>SCFieldSet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SCFieldSet.aspx.designer.cs">
+      <DependentUpon>SCFieldSet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SCItemList.aspx.cs">
+      <DependentUpon>SCItemList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SCItemList.aspx.designer.cs">
+      <DependentUpon>SCItemList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SCMain.aspx.cs">
+      <DependentUpon>SCMain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SCMain.aspx.designer.cs">
+      <DependentUpon>SCMain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SCObject.aspx.cs">
+      <DependentUpon>SCObject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SCObject.aspx.designer.cs">
+      <DependentUpon>SCObject.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SCObjGoo.aspx.cs">
+      <DependentUpon>SCObjGoo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SCObjGoo.aspx.designer.cs">
+      <DependentUpon>SCObjGoo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SCQueryQuote.aspx.cs">
+      <DependentUpon>SCQueryQuote.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SCQueryQuote.aspx.designer.cs">
+      <DependentUpon>SCQueryQuote.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SCQuote.aspx.cs">
+      <DependentUpon>SCQuote.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SCQuote.aspx.designer.cs">
+      <DependentUpon>SCQuote.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SCQuoteItem.aspx.cs">
+      <DependentUpon>SCQuoteItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SCQuoteItem.aspx.designer.cs">
+      <DependentUpon>SCQuoteItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SCSupQuery.aspx.cs">
+      <DependentUpon>SCSupQuery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SCSupQuery.aspx.designer.cs">
+      <DependentUpon>SCSupQuery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SCSupSet.aspx.cs">
+      <DependentUpon>SCSupSet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SCSupSet.aspx.designer.cs">
+      <DependentUpon>SCSupSet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SCTypeFee.aspx.cs">
+      <DependentUpon>SCTypeFee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SCTypeFee.aspx.designer.cs">
+      <DependentUpon>SCTypeFee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SCTypeFeeItem.aspx.cs">
+      <DependentUpon>SCTypeFeeItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SCTypeFeeItem.aspx.designer.cs">
+      <DependentUpon>SCTypeFeeItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SCTypeQuery.aspx.cs">
+      <DependentUpon>SCTypeQuery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SCTypeQuery.aspx.designer.cs">
+      <DependentUpon>SCTypeQuery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="XMSSCData.aspx.cs">
+      <DependentUpon>XMSSCData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="XMSSCData.aspx.designer.cs">
+      <DependentUpon>XMSSCData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="XMSSCData2.aspx.cs">
+      <DependentUpon>XMSSCData2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="XMSSCData2.aspx.designer.cs">
+      <DependentUpon>XMSSCData2.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ExcelTool\ExcelTool.csproj">
+      <Project>{F9F7F049-078D-45F7-B5B4-63D643F26377}</Project>
+      <Name>ExcelTool</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SC_DAO\SC_DAO.csproj">
+      <Project>{CC375FFD-818B-4B95-9E6A-558823B17190}</Project>
+      <Name>SC_DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SC_LIB\SC_LIB.csproj">
+      <Project>{7A253E90-FE56-4940-A902-252719E7AD60}</Project>
+      <Name>SC_LIB</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fonts\glyphicons-halflings-regular.eot" />
+    <None Include="fonts\glyphicons-halflings-regular.svg" />
+    <None Include="fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="fonts\glyphicons-halflings-regular.woff" />
+    <None Include="fonts\glyphicons-halflings-regular.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>4298</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

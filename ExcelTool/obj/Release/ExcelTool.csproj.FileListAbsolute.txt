@@ -1,0 +1,1 @@
+F:\Projects\AspDotnet\SC_Offer\SC_Offer\ExcelTool\obj\Release\ExcelTool.csprojResolveAssemblyReference.cache

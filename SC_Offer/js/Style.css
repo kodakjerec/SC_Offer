@@ -1,0 +1,200 @@
+﻿.PageTitle
+{
+	text-indent: 0em;
+	font-weight: bold;
+	font-size: 18px;
+	text-indent: 8px;
+	/*color:GRAY;*/
+	color:white;
+	/*background:#ccffb4;*/
+	background:#3366ff;
+}
+.HeaderStyle {
+    background-color: #AFD6FF;
+    border: 0px;
+    color: white;
+    font-family:arial, verdana, sans-serif;
+    font-size:12pt;
+    font-weight:bold;
+    text-align: Left;
+    text-indent: 10px;
+    vertical-align: middle;
+    width: 100%;
+}
+.tborder
+{
+    /*表格置中*/
+    margin-left:auto;
+    margin-right:auto;
+	background: #FFFFFF;
+	color: #000000;
+	border: 1px solid #BEC9D1;
+	border-collapse: separate;
+	border-spacing: 1px;
+}
+.thead
+{
+    background-image: url(../Images/thead1.jpg);
+	font: bold 16px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.alt1
+{
+	background: #DDFFC0;
+	color: #000000;
+	padding: 2px;
+	vertical-align: middle;
+	text-align: left;
+}
+.alt2
+{
+	background: #EAFFD8;
+	color: #000000;
+	padding: 2px;
+	vertical-align: middle;
+}
+.alt3
+{
+	background: #DDFFC0;
+	color: #000000;
+	padding: 2px;
+	vertical-align: middle;
+	text-align: center;
+}
+.alt4
+{
+	background: #EAFFD8;
+	color: #000000;
+	padding: 2px;
+	vertical-align: middle;
+		text-align: center;
+}
+.Condition
+{
+	/*width:5em;*/
+	text-align: right;
+}
+.CountText
+{
+	margin-left: 30px;
+	font-size:small;
+}
+/* GridView Style */
+.GVStyle .GVHead
+{
+    border: 1px solid #BA9;
+	font-weight: bold;
+	/*background: #3366ff repeat-x top left; CDE5FF*/
+	background: #9291FF repeat-x top left;
+	vertical-align: top;
+	font: 100% "Trebuchet MS" , Tahoma, Arial, Helvetica, sans-serif;
+    text-align: center;
+    color :White;
+}
+.GVStyle .GVPage
+{
+	border: 0px solid #BA9;
+	font-weight: bold;
+	/*background: #D1FFCC repeat-x top left;	*/
+	/*background: #3366ff repeat-x top left;*/	
+	background: #9291FF repeat-x top left;	
+	vertical-align: top;
+	color:White;
+	font: 100% "Trebuchet MS" , Tahoma, Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.GVStyle th
+{
+	color: #ffffff;
+}
+.GVStyle tr td
+{
+	border: 1px solid #BA9;
+}
+.GVStyle .one
+{
+    /*background-color: #FFFFFF;*/
+    background-color: #D4F8E6;
+    
+	/*background: url(../Images/ccc.gif) repeat-x top left;
+	*/
+}
+.GVStyle .two
+{
+    background-color: #bfffff;
+	/*background: url(../Images/ddd.gif) repeat-x top left;
+	background: url(../Images/shim.gif) repeat-x top left;*/
+}
+.GVStyle .one:hover
+{
+	background: url(../Images/hover3.gif) repeat-x top left;
+}
+.GVStyle .two:hover
+{
+	background: url(../Images/hover3.gif) repeat-x top left;
+}
+
+
+
+
+
+
+.cssbutton
+{
+	background: url( "../Images/buttonLeft.gif" ) no-repeat 0px center;
+}
+/* Using Horizontal BG Positioning */
+.cssbutton
+{
+	background: url( "../Images/buttonRight.gif" ) no-repeat right 0%;
+}
+/* Using Vertical BG Positioning */
+
+.cssbutton:hover
+{
+	background: url( "../Images/buttonLeft.gif" ) no-repeat -40px center;
+}
+/* Negative X Positioning Method */
+.cssbutton:hover
+{
+	background: url( "../Images/buttonRight.gif" ) no-repeat right 100%;
+}
+
+/*按鈕外框*/
+.cssbutton
+{
+	border: 0;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	cursor: pointer;
+}
+.cssbutton
+{
+	font: bold 12px/23px Verdana;
+	color: #666;
+	display: block;
+	cursor: pointer;
+	position: relative;
+	white-space: nowrap;
+	height: 23px;
+	margin-left: 1px;
+	padding: 0 10px 0 9px;
+}
+
+.EditTD1 {
+    background-color: #F0F8FF;
+    color: #000066;
+    font-family:arial, verdana, sans-serif;
+    font-size: 12pt;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.rbt {
+    background-color: white;
+    color: #000066;
+    font-family:arial, verdana, sans-serif;
+    font-size: 8pt;
+    text-align: left;
+    vertical-align: middle;
+}
